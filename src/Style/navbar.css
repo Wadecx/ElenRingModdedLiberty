@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    gap: 10px;
+    font-size: 20px;
+    font-family: "Jura", sans-serif;
+}
+
+.nav img{
+    width: 2%;
+    border-radius: 100px;
+}

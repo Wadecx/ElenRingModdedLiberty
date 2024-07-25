@@ -1,0 +1,74 @@
+.main .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.main .row img{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.main .row .column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    color: white;
+    font-family: "Jura", sans-serif;
+    font-size: 40px;
+}
+.column p{
+    font-size: 20px;
+}
+.column h1{
+    font-weight: 100;
+}
+
+
+.main .row .column .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-weight: 600;
+}
+.column .buttons a{
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+    
+
+}
+
+.black {
+    background-color: #EBE7DD;
+    color: black;
+    transition: .1s ease-in-out;
+}
+
+.black:hover{
+    transform: translateY(-3px);
+    transition: .1s ease-in-out;
+}
+
+.cream {
+    color: White; 
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cream::after{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 2px;
+    position: relative;
+    background: white;
+    transition: width .15s;
+}
+
+.cream:hover::after{
+    width: 80%;
+    transition: width .15s;
+}
